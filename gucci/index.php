@@ -41,15 +41,17 @@
             <div class="centered">
                 <h1><a href="#/home" title=""><img src="images/logo.png" height="41" alt=""></a></h1>
                 <nav>
-	                <a href="index.html#/home" title="Home" class="selected">Home<span class="underline"></span></a>
-	                <a href="index.html#/im-designing" title="">Consulting<span class="underline"></span></a>
-	                <a href="index.html#/about-me" title="">History<span class="underline"></span></a>
-	                <a href="index.html#/awards-and-facts" title="Awards & Facts">Services<span class="underline"></span></a>
-	                <a href="index.html#/portfolio" title="Portfolio">Gallery<span class="underline"></span></a>
-	                <a href="index.html#/case" title="Case">Case study<span class="underline"></span></a>
-	                <a href="index.html#/Clients" title="Clients">Clients<span class="underline"></span></a>
-	                <a href="index.html#/Contact" title="Contact">Contact<span class="underline"></span></a>
+	                <a href="index.html#/home" title="Home" class="selected"><?php echo $lang['HOME'];?><span class="underline"></span></a>
+	                <a href="index.html#/im-designing" title=""><?php echo $lang['CONSULTING'];?><span class="underline"></span></a>
+	                <a href="index.html#/about-me" title=""><?php echo $lang['HISTORY'];?><span class="underline"></span></a>
+	                <a href="index.html#/awards-and-facts" title="Awards & Facts"><?php echo $lang['SERVICES'];?><span class="underline"></span></a>
+	                <a href="index.html#/portfolio" title="Portfolio"><?php echo $lang['GALLERY'];?><span class="underline"></span></a>
+	                <a href="index.html#/case" title="Case"><?php echo $lang['STUDY'];?><span class="underline"></span></a>
+	                <a href="index.html#/Clients" title="Clients"><?php echo $lang['CLIENTS'];?><span class="underline"></span></a>
+	                <a href="index.html#/Contact" title="Contact"><?php echo $lang['CONTACT'];?><span class="underline"></span></a>
+
 	                <a href="" target="_blank" class="be" title=""></a><span class="separator"></span>
+                    
 	                <a href="http://www.facebook.com" target="_blank" class="fb" title=""></a><span class="separator"></span>
 	                <a href="mailto:hello@hello.com?subject=Say%20hello!" class="mail" title="Say hello!">hello@hello.com</a>
                 </nav>
