@@ -1230,15 +1230,15 @@ li.block-wrap {
   }
 }
 /*====================================================================
-    Team Member blocks
+    clients Member blocks
 ======================================================================*/
-.team-block {
+.clients-block {
   border-bottom: 1px solid #1a1a1a;
   border-top: 1px solid #3a3a3a;
   width: 100%;
   overflow: hidden;
 }
-.team-block img {
+.clients-block img {
   float: left;
   margin: 20px;
   width: 20%;
@@ -1247,37 +1247,37 @@ li.block-wrap {
   border-bottom: 1px solid #3a3a3a;
   border-right: 1px solid #3a3a3a;
 }
-.team-block h3,
-.team-block p {
+.clients-block h3,
+.clients-block p {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   filter: dropshadow(color=#000000, offx=1, offy=1);
 }
-.team-block h3 {
+.clients-block h3 {
   font-weight: 800;
   margin: 20px 0 0 0;
 }
-.team-block h3 a {
+.clients-block h3 a {
   color: #cccccc;
 }
-.team-block h3 a:hover {
+.clients-block h3 a:hover {
   color: #ffffff;
 }
-.team-block p {
+.clients-block p {
   color: #ff6666;
   padding: 0;
 }
 @media all and (min-width: 40em) {
-  .team-block {
+  .clients-block {
     border: 0px none;
     width: auto;
   }
-  .team-block:before {
+  .clients-block:before {
     content: "";
     height: 0;
     padding-top: 100%;
     display: block;
   }
-  .team-block img {
+  .clients-block img {
     position: absolute;
     width: 100%;
     max-width: 100%;
@@ -1287,11 +1287,11 @@ li.block-wrap {
     float: none;
     margin: 0;
   }
-  .team-block h3,
-  .team-block p {
+  .clients-block h3,
+  .clients-block p {
     position: absolute;
   }
-  .team-block h3 {
+  .clients-block h3 {
     bottom: 0;
     left: 0;
     right: 0;
@@ -1301,10 +1301,10 @@ li.block-wrap {
     background: rgba(0, 0, 0, 0.4);
     filter: none;
   }
-  .team-block h3 a {
+  .clients-block h3 a {
     color: #ffffff;
   }
-  .team-block p {
+  .clients-block p {
     bottom: 1em;
     left: 5%;
     display: none;
@@ -2834,13 +2834,13 @@ section {
 .icon-studio {
   background-position: -3em 0;
 }
-.icon-team {
+.icon-clients {
   background-position: -6em 0;
 }
 .icon-work {
   background-position: -9em 0;
 }
-.icon-ethos {
+.icon-concept {
   background-position: -12em 0;
 }
 .icon-contact {
@@ -3040,11 +3040,11 @@ section {
 }
 #contact .icon,
 #new-contact .icon {
-  color: #666666;
+  /* color: #666666; */
   /* margin-right: 0.5em; */
 }
 #new-contact .icon {
-  color: #ff6666;
+  /*color: #ff6666;*/
 }
 .no-svg #contact h4 a,
 .no-svg #new-contact h4 a {
@@ -3129,10 +3129,10 @@ section {
   border-top: 1px solid #3a3a3a;
   border-bottom: 1px solid #1a1a1a;
 }
-.ethos {
+.concept {
   background: #2a2a2a;
 }
-.ethos .block-wrap {
+.concept .block-wrap {
   width: 100%;
   border-top: 1px solid #3a3a3a;
   border-bottom: 1px solid #1a1a1a;
@@ -3184,13 +3184,13 @@ section {
   .projects .block-wrap {
     border: 0px none;
   }
-  .ethos {
+  .concept {
     background: transparent;
   }
-  .ethos .block-wrap {
+  .concept .block-wrap {
     border: 0px none;
   }
-  .ethos .block-wrap[data-colspan="1"] {
+  .concept .block-wrap[data-colspan="1"] {
     width: 50%;
   }
   .blog-preview {
@@ -3205,7 +3205,7 @@ section {
   #logo-block {
     display: block;
   }
-  .ethos .block-wrap {
+  .concept .block-wrap {
     width: 50%;
   }
   .grid-home .block-wrap {
